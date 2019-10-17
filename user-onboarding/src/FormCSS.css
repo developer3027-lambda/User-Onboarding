@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2em;
+    width: 320px;
+}
+
+label {
+    margin: .5em 0;
+}
+
+button {
+    border: 1px black solid;
+    width: 6em;
+    height: 2em;
+    margin-top: 1em;
+}
